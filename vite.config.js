@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
     define: {
-      "process.env.REACT_APP_API_KEY": JSON.stringify(env.REACT_APP_API_KEY),
+      "process.env.VITE_API_KEY": JSON.stringify(env.VITE_API_KEY),
     },
     plugins: [react()],
   };

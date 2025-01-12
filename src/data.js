@@ -1,4 +1,4 @@
-export const API_KEY = process.env.REACT_APP_API_KEY;
+export const API_KEY = import.meta.env.VITE_API_KEY;
 
 console.log(API_KEY); // API anahtarınızı konsola yazdırabilirsiniz
 
