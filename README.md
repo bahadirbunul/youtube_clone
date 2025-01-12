@@ -1,8 +1,22 @@
-# React + Vite
+# A Youtube Clone with ReactJS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have created a YouTube clone application using the YouTube Data API. In this app, users can access and view video details by selecting individual videos. The app retrieves and displays video metadata, such as titles, descriptions, and other relevant details, providing an experience similar to the original YouTube platform.
 
-Currently, two official plugins are available:
+Click demo to try it by yourself!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Youtube Clone Demo Link
+
+You can view the site here
+[Click Me](https://bb-youtube-clone--green.vercel.app/)
+
+## Topics
+
+- ReactJS
+- React Hooks
+- Youtube Data API
+- Responsive Design
+- Deploy the App LIVE on Vercel
+
+## Author
+
+Bahadır Bünül
