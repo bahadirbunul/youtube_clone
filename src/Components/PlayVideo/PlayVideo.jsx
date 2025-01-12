@@ -52,7 +52,7 @@ const PlayVideo = () => {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        allowFullscreen
       ></iframe>
       <h3>{apiData ? apiData.snippet.title : "Title Here"}</h3>
       <div className="play-video-info">

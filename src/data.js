@@ -1,4 +1,6 @@
-export const API_KEY = "AIzaSyBqWPGurDluzluziOv88WlYH2toYSXjHi4";
+export const API_KEY = process.env.REACT_APP_API_KEY;
+
+console.log(API_KEY); // API anahtarınızı konsola yazdırabilirsiniz
 
 export const value_converter = (value) => {
   if (value >= 1000000) {
@@ -6,6 +8,6 @@ export const value_converter = (value) => {
   } else if (value >= 1000) {
     return Math.floor(value / 1000) + "K";
   } else {
-    value;
+    return value; // Burada return eklemelisiniz
   }
 };
