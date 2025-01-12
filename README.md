@@ -1,4 +1,4 @@
-### A Youtube Clone with ReactJS.
+# A Youtube Clone with ReactJS.
 
 Click demo to try it by yourself!
 
