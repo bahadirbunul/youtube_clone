@@ -57,3 +57,15 @@
   width: 50%;
   margin-bottom: 25px;
 }
+
+.side-link.active img {
+  padding-bottom: 2px;
+  border-bottom: 3px solid red;
+}
+
+@media (max-width:900px) {
+  .sidebar{
+    display: none;
+  }
+  
+}
